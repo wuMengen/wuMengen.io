@@ -47,7 +47,26 @@
   
   
 
+<script>
+  (function () {
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    } else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
 
+</script>
+
+
+
+  
+    <script src="/lib/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
   
 
 </head>
@@ -76,12 +95,6 @@
 			<ul>
 			
 				<li><a href="/" target="_blank">主页</a></li>
-	        
-				<li><a href="/categories" target="_blank">分类</a></li>
-	        
-				<li><a href="/tags" target="_blank">标签</a></li>
-	        
-				<li><a href="/about" target="_blank">关于我</a></li>
 	        
 			</ul>
 		</nav>
@@ -160,12 +173,6 @@
 			
 				
 			
-				
-			
-				
-			
-				
-			
 			
 			
 			<nav class="header-nav">
@@ -187,16 +194,10 @@
 			</nav>
 
 			<nav class="header-menu js-header-menu">
-				<ul style="width: 70%">
+				<ul style="width: 50%">
 				
 				
-					<li style="width: 25%"><a href="/">主页</a></li>
-		        
-					<li style="width: 25%"><a href="/categories">分类</a></li>
-		        
-					<li style="width: 25%"><a href="/tags">标签</a></li>
-		        
-					<li style="width: 25%"><a href="/about">关于我</a></li>
+					<li style="width: 100%"><a href="/">主页</a></li>
 		        
 				</ul>
 			</nav>
@@ -683,7 +684,7 @@
     	<section class="tools-section tools-section-me" q-show="aboutme">
         
           
-  	  		<div class="aboutme-wrap" id="aboutme">主要涉及技术：<br>Java后端开发、聚合支付、<br>公众号开发、开源爱好者、Linux<br><br>联系QQ:1160571506<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="aboutme">公司最菜，没有之一</div>
   	  	
     	</section>
     
